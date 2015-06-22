@@ -182,6 +182,6 @@ if __name__ == '__main__':
     print("Weather for {}".format(curWeather['location']))
     for row in range(len(format_condition(curConditions))):
         print(format_condition(curConditions)[row])
-    for day in curWeather['days']:
+    for day in sorted(curWeather['days']):
         print_day_header(curWeather['days'][day], day)
         print_day(curWeather['days'][day])
