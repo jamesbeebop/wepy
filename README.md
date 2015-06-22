@@ -39,7 +39,8 @@ a bit scary.  :)
    Your github.com account needs a public email address, but
    you can choose a bogus one.
 2. Copy your API key into the `conf.py` file, change the city to your preference, and 
-    choose if you want to use metric or imperial units. Save the file.
+   choose if you want to use metric or imperial units. Save the file in the same folder
+   with `we.py`
 3. Run `python we.py ` to display the weather based on your conf entries, or 
    override with command line arguments (run `python we.py --help` to see
    options)
