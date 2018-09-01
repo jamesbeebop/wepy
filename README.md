@@ -2,13 +2,8 @@
 
 wepy displays the weather in a terminal, and is inspired by https://github.com/schachmat/wego
 
-I'm freshly started down the [10 year path](http://www.norvig.com/21-days.html) to being a
-better programmer.  I'm in IT, but my job is more SysAdmin-y and I don't do a lot of coding
-professionally.  
 The idea for this program, as well as the excellent ASCII art, and other sundry goodies, all
-come from the wego project mentioned above.  This seemed like a great way to learn a little more 
-Python, and also what it's like to publish to the world on Github.  Turns out, the latter is 
-a bit scary.  :)
+come from the wego project mentioned above.
 
 ##Features
 
@@ -35,19 +30,17 @@ a bit scary.  :)
 ##Setup
 
 1. If you don't have the necessary API key, you can [register
-   here](https://developer.worldweatheronline.com/auth/register) with your github.com account. 
+   here](https://developer.worldweatheronline.com/auth/register) with your github.com account.
    Your github.com account needs a public email address, but
    you can choose a bogus one.
-2. Copy your API key into the `conf.py` file, change the city to your preference, and 
+2. Copy your API key into the `conf.py` file, change the city to your preference, and
    choose if you want to use metric or imperial units. Save the file in the same folder
    with `we.py`
-3. Run `python we.py ` to display the weather based on your conf entries, or 
+3. Run `python we.py ` to display the weather based on your conf entries, or
    override with command line arguments (run `python we.py --help` to see
    options)
 
 ##Todo
-
-* Does continuous improvement count as a to do?  :)
 
 ##License
 
